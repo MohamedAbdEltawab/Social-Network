@@ -1,0 +1,381 @@
+*{
+	box-sizing: border-box;
+}
+.navbar{
+	background: #3b5998;
+	border: #3b5998;
+	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #FFF
+}
+
+.friendrequest{
+	width: 420px;
+}
+
+.backimage{
+	border: 1px solid #ddd;
+	background: #e4e4e4;
+	height: 90px;
+}
+
+.username{
+	font-size: 17px;
+	text-align: center;
+	line-height: 126px;
+	height: 98px;
+}
+
+.friendnot{
+	/* background: red; */
+	/* border-radius: 5px; */
+	/* padding-right: 5px; */
+	/* padding-bottom: 3px; */
+	/* padding-top: 2px; */
+}
+.not{
+	background: red;
+	border-radius: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 2px;
+}
+.notifications{
+	width: 420px;
+}
+
+.unread{
+	background: #DDD;
+}
+
+.personimage{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #635454;
+	border-radius: 100%;
+	margin-top: 37px;
+	margin-left: 6em;
+}
+
+.profile{
+	width: 850px;
+	height: 300px;
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #DDD;
+}
+.subnav{
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #DDD;
+}
+.subnav ul{
+	margin-left: 200px
+}
+.subnav ul li {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.profileimage{
+	width: 165px;
+	height: 165px;
+	position: absolute;
+	background: #EEE;
+	margin-top: 163px;
+	margin-left: 40px;
+	border: 1px solid #DDD;
+}
+
+.profilecontent{
+	margin-top: 20px;
+}
+
+.intro{
+	
+}
+.personalinfo{
+	height: 300px
+}
+.timeline{
+	
+}
+
+.postimage{
+	display: inline-block;
+	float: left;
+	padding: 10px ;
+}
+.name{
+	float: left;
+	display: inline-block;
+	/* margin-right: 300px; */
+	font-size: 16px;
+	/* font-weight: bold; */
+	padding: 10px 10px 0 10px;
+	color: #365899;
+}
+.posttime{
+	font-size: 11px;
+	color: #90949c;
+	position: absolute;
+}
+
+.content{
+	padding-top: 90px;
+	padding-bottom: 0px;
+	font-size: 18px;
+	margin: 12px;
+}
+
+.react{
+	border: 1px solid #DDD;
+	padding: 4px;
+}
+
+
+.comment{
+	display: block;
+	background: #f6f7f9;
+	border: 1px solid #f6f7f9;
+	box-shadow: 10x 10px 10px #ddd;
+}
+.commentimage img{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	display: inline-block;
+	float: left;
+}
+.commentname{
+
+display: inline-block;
+
+padding: 10px 10px 0 10px;
+
+font-size: 14px;
+
+color: #365899;
+}
+.commenttime{
+
+display: inline-block;
+
+padding: 0 10px 2px 10px;
+
+font-size: 11px;
+
+color: #90949c;
+}
+.commentbody{
+	
+/* display: inline-block; */
+	
+/* float: right; */
+	
+font-size: 15px;
+	
+padding: 0 0px 3px 80px;
+}
+.inputcomment{padding-bottom: 10px;padding-top: 10px;padding-left: 10px;}
+.inputimage{
+	
+display: inline-block;
+	
+/* padding-left: 20px; */
+}
+.inputcomment form{
+	display: inline-block;
+}
+.writecomment{
+	width: 480px;
+
+}
+
+.reply {
+	padding-left: 0px;
+}
+
+
+.replyimage img {
+	width: 23px;
+	height: 23px;
+	/* margin: 10px; */
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	margin-left: 64px;
+}
+.replyname{
+	font-size: 12px;
+	color: #3b5899;
+}
+.replybody{
+	font-size: 13px;
+	padding-left: 95px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+.replytime{
+	font-size: 11px;
+	padding-left: 95px;
+	color: #90949c;
+}
+
+.reply input {
+	width: 300px;
+	padding: 0;
+
+}
+.Writereply{
+	
+}
+
+
+
+.setting{
+	
+}
+
+.fa {
+	font-size: 1.4em;
+	position: relative;
+}
+
+.search{
+	width: 515px;
+	border: 1px solid rgba(51, 122, 183, 0.47);
+	overflow: hidden;
+	border-radius: 6px;
+	background: #FFF;
+	margin-bottom: 5px;
+}
+.search .img {
+	width: 100px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.search .name {
+	display: inline-block;
+	padding-top: 15px;
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+.search p {
+	font-size: 12px;
+	padding-left: 4px;
+}
+
+.search .add{
+	float: right;
+	margin: 15px;
+	font-size: 
+}
+
+.friends{
+	width: 47%;
+	display: inline-block;
+	float: left;
+	border: 1px solid #DDD;
+	margin-bottom: 10px;
+	margin-left: 3%;
+}
+
+.dropdown-menu>li>a{
+	padding: 3px 10px
+}
+
+.friendrequest li {
+	border-bottom: 1px solid #DDD;
+}
+
+.friendrequest .form{
+	
+display: inline-block;
+	
+padding-left: 18px;
+}
+
+.friendside{
+	display: inline-block;
+    width: 17%;
+    position: absolute;
+    border-left: 1px solid #DDD;
+    padding: 10px;
+    height: 100%;
+    overflow: auto; 
+}
+.friendside .user {
+	border-bottom: 1px solid #DDD;
+	padding: 10px 0 10px;
+}
+.chat{
+	height: 400px;
+	border:1px solid #DDD;
+	width: 100%;
+	background: #FFF;
+	overflow: scroll;
+	position: relative;
+}
+.message{
+	margin-left: 10px;
+	background: #DDD;
+	padding: 9px;
+	border-radius: 10px;
+	display: inline;
+}
+.chat .auth{
+	margin:10px;
+	max-width: 68%;
+	display: block;
+}
+.chat .auth .message{
+
+background: rgba(0, 67, 255, 0.82);
+
+border-radius: 10px;
+
+color: #FFF;
+
+padding: 6px;
+
+display: inline-block;
+}
+.chat .user{
+
+direction: rtl;
+
+margin: 10px;
+
+/*max-width: 68%;*/
+
+display: block;
+}
+.chat .user .message{
+	
+margin-left: 10px;
+	
+background: #DDD;
+	
+padding: 9px;
+	
+border-radius: 10px;
+	
+display: inline;
+}
+.container{
+	width: 83%;
+	display: inline-block;
+	padding-left: 50px
+}
