@@ -57,7 +57,7 @@
 
                 <div class="react">
 
-                    <i class="fa fa-thumbs-o-up" aria-hidden="true"><a href="">Like</a></i>
+                    <i class="fa fa-thumbs-o-up" aria-hidden="true"><a href=""><span>Like</span></a></i>
                     <i class="fa fa-comment" aria-hidden="true"><a href="">Comment</a></i>
                 </div>
                   
